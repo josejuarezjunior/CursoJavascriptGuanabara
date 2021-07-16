@@ -13,10 +13,7 @@ function contar(){
         var i = Number(inicio.value);
         var f = Number(fim.value);
         var p = Number(passo.value);
-        /*if(p <= 0){
-            window.alert('Passo inválido. Será considerado passo 1!');
-            p = 1;
-        }*/
+
         //Contagem crescente
         if(i < f){
             for(let c = i; c <= f; c += p){
